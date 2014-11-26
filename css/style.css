@@ -1,5 +1,5 @@
 body {
-    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN", "Kozuka Mincho Pr6N", "小塚明朝 Pr6N R", Meiryo, serif;
     font-size: 1.2em;
 }
 
@@ -8,23 +8,23 @@ a {
     text-decoration: none;
 }
 
-ul {
+main ul {
     list-style-type: none;
 }
 
-ul li {
+main ul li {
     padding-left: 0em;
     text-indent: -1.4em;
 }
 
-ul li:before {
+main ul li:before {
     content: "• ";
     font-size: 1.5em;
     vertical-align: middle;
     color: gray;
 }
 
-ul.nm > li:before {
+main ul.nm > li:before {
     content: none;
 }
 
@@ -42,6 +42,20 @@ body > header > .container {
 body > header h1 {
     font-size: 4em;
     line-height: 0.5em;
+}
+
+body > header > nav ul {
+    padding-left: 60px;
+}
+
+body > header > nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1em;
+}
+
+body > header > nav li.current {
+    font-size: 1.5em;
 }
 
 #name_alp {
