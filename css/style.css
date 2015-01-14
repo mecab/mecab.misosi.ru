@@ -85,6 +85,10 @@ main li b {
     content: " →CiNii";
 }
 
+.pdf:before {
+    content: " →PDF";
+}
+
 body > footer {
     border-top: 1px solid #cccccc;
     padding-top: 1em;
