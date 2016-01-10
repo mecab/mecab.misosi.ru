@@ -89,6 +89,10 @@ main li b {
     content: " →PDF";
 }
 
+.pdf.author-izer:before {
+    content: "→PDF (via ACM Author-Izer)";
+}
+
 body > footer {
     border-top: 1px solid #cccccc;
     padding-top: 1em;
