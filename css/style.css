@@ -1,6 +1,17 @@
 body {
     font-family: "游明朝", YuMincho, "Hiragino Mincho ProN", "Kozuka Mincho Pr6N", "小塚明朝 Pr6N R", Meiryo, serif;
-    font-size: 1.2em;
+}
+
+@media screen and (min-width:480px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        font-size: 1em;
+    }
 }
 
 a {
@@ -65,8 +76,20 @@ body > header > nav li.current {
 
 main {
     color: #444444;
-    margin-left: 60px;
-    margin-right: 60px;
+}
+
+@media screen and (min-width:480px) {
+    body {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
 
 main h2 {
@@ -79,6 +102,10 @@ main li {
 
 main li b {
     color: #000000;
+}
+
+main ul {
+    padding-left: 2em;
 }
 
 .cinii:before {
